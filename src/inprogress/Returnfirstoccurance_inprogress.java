@@ -1,4 +1,4 @@
-package easyProblems;
+package inprogress;
 
 public class Returnfirstoccurance_inprogress {
 	  public int strStr(String haystack, String needle) {
