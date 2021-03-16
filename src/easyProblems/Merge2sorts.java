@@ -1,18 +1,27 @@
 package easyProblems;
 
 public class Merge2sorts {
+	int c;
+	Integer d= new Integer(5);
 	 public void merge(int[] nums1, int m, int[] nums2, int n) {
-	     int[] nums=new int[m+n];
-	      for(int i=0;i<nums1.length;i++) {
-	    	  if(nums1[i]<nums2[i]) {
-	    		  nums[i]=nums1[i];
-	    	  }
-	      }
+	    
 	    }
+	 public void display(int a, int b) {
+		 c=a+b;
+	 }
+	 public void update(Integer x) {
+		 x=x+10;
+	 }
 	 
-}
+	 public static void main(String args[]) {
+		 Merge2sorts mass= new Merge2sorts();
+		 mass.display(5, 6);
+	     System.out.println(mass.c);
+	     mass.update(mass.d);
+	     System.out.println(mass.d);
+		 }
+		 }
+	 
 
 
-//{1,2,3,0,0,0}
-//{2,5,6}
-//0
+
